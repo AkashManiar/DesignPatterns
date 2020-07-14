@@ -1,6 +1,6 @@
 import express from 'express'
 import AbstractFactoryPattern from "./CreationalPatterns/abstract_factory"
-
+import GenerateBuilder from "./CreationalPatterns/builder"
 
 
 const app = express()
@@ -17,4 +17,7 @@ app.listen(5000, () => console.log('Server running at 5000'))
 // Design Patterns
 
 // Abstract Factory Pattern
-AbstractFactoryPattern()
+// AbstractFactoryPattern()
+
+// Builder
+GenerateBuilder()
